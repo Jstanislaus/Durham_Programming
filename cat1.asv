@@ -1,0 +1,5 @@
+a=imread('cat.jpg');
+for i = 240:305
+    for j =170:230
+        a(())
+image(a)

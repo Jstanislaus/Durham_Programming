@@ -1,0 +1,5 @@
+b = [84,23,75,94,54,3,7,89,3,23]
+my_max = b(1)
+for i =1:(shape(b)-1)
+    if b(i)>my_max
+        my_max = b(i)

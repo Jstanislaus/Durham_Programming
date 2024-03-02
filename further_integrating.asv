@@ -1,0 +1,18 @@
+dx =0.001
+sum=0
+x = input('Please enter the integrals lower bound')
+b = input('Please enter the integrals upper bound')
+if b<x
+    temp = x
+    x = b
+    b = temp
+elseif x==b
+    disp("Warning, limits are the same")
+end
+while x<=b
+    x = x+dx
+    y = x^2
+    box_area = y*dx
+    sum = sum+box_area
+end
+error = sum-(b^)
