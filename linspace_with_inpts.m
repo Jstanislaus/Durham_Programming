@@ -1,5 +1,0 @@
-start = input("Please enter a start value:\n")
-stop = input("Please enter a stop value\n")
-a = linspace(start,stop,1000)
-b = sin(a)
-plot(b)
